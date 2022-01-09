@@ -2,6 +2,7 @@
 
 simplex-tcp implements TCP over UDP and provides interfaces for both the client and the server. It supports a one-time data exchange   and connection termination at the client (excludes initial handshaking). The client should send data to a link emulator that could possibly corrupt, lose, or delay packets, and the server should directly send ACKs back to the client. 
 
+![](img/tcp.gif)
 
 ### Getting Started
 ---
